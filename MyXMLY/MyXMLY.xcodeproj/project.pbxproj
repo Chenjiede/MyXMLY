@@ -8,18 +8,108 @@
 
 /* Begin PBXBuildFile section */
 		5E0E3FB309E7B3CA69E5B930 /* Pods_MyXMLY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FA1F060E1F5A78828803B0 /* Pods_MyXMLY.framework */; };
+		7458874E1EA2205000001DCE /* JDFindHeaderIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887491EA2205000001DCE /* JDFindHeaderIconView.swift */; };
+		7458874F1EA2205000001DCE /* JDFindHeaderIconView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7458874A1EA2205000001DCE /* JDFindHeaderIconView.xib */; };
+		745887501EA2205000001DCE /* JDFindRecHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458874B1EA2205000001DCE /* JDFindRecHeaderView.swift */; };
+		745887511EA2205000001DCE /* JDFindRecHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7458874C1EA2205000001DCE /* JDFindRecHeaderView.xib */; };
+		745887521EA2205000001DCE /* JDFindSubTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458874D1EA2205000001DCE /* JDFindSubTitleView.swift */; };
+		7458875C1EA220DE00001DCE /* JDFindCellStyleFee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887541EA220DE00001DCE /* JDFindCellStyleFee.swift */; };
+		7458875D1EA220DE00001DCE /* JDFindCellStyleFee.xib in Resources */ = {isa = PBXBuildFile; fileRef = 745887551EA220DE00001DCE /* JDFindCellStyleFee.xib */; };
+		7458875E1EA220DE00001DCE /* JDFindCellStyleLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887561EA220DE00001DCE /* JDFindCellStyleLive.swift */; };
+		7458875F1EA220DE00001DCE /* JDFindCellStyleLive.xib in Resources */ = {isa = PBXBuildFile; fileRef = 745887571EA220DE00001DCE /* JDFindCellStyleLive.xib */; };
+		745887601EA220DE00001DCE /* JDFindCellStyleMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887581EA220DE00001DCE /* JDFindCellStyleMore.swift */; };
+		745887611EA220DE00001DCE /* JDFindCellStyleMore.xib in Resources */ = {isa = PBXBuildFile; fileRef = 745887591EA220DE00001DCE /* JDFindCellStyleMore.xib */; };
+		745887621EA220DE00001DCE /* JDFindCellStyleSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458875A1EA220DE00001DCE /* JDFindCellStyleSpecial.swift */; };
+		745887631EA220DE00001DCE /* JDFindCellStyleSpecial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7458875B1EA220DE00001DCE /* JDFindCellStyleSpecial.xib */; };
+		745887731EA221CC00001DCE /* JDFindCityColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887651EA221CC00001DCE /* JDFindCityColumn.swift */; };
+		745887741EA221CC00001DCE /* JDFindDiscoveryColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887661EA221CC00001DCE /* JDFindDiscoveryColumns.swift */; };
+		745887751EA221CC00001DCE /* JDFindDiscoveryColumnsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887671EA221CC00001DCE /* JDFindDiscoveryColumnsList.swift */; };
+		745887761EA221CC00001DCE /* JDFindDiscoveryColumnsProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887681EA221CC00001DCE /* JDFindDiscoveryColumnsProperties.swift */; };
+		745887771EA221CC00001DCE /* JDFindEditorRecommendAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887691EA221CC00001DCE /* JDFindEditorRecommendAlbum.swift */; };
+		745887781EA221CC00001DCE /* JDFindFeeDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458876A1EA221CC00001DCE /* JDFindFeeDetailModel.swift */; };
+		745887791EA221CC00001DCE /* JDFindFocusImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458876B1EA221CC00001DCE /* JDFindFocusImages.swift */; };
+		7458877A1EA221CC00001DCE /* JDFindFocusImagesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458876C1EA221CC00001DCE /* JDFindFocusImagesDetail.swift */; };
+		7458877B1EA221CC00001DCE /* JDFindGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458876D1EA221CC00001DCE /* JDFindGuess.swift */; };
+		7458877C1EA221CC00001DCE /* JDFindHotRecommends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458876E1EA221CC00001DCE /* JDFindHotRecommends.swift */; };
+		7458877D1EA221CC00001DCE /* JDFindHotRecommendsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458876F1EA221CC00001DCE /* JDFindHotRecommendsList.swift */; };
+		7458877E1EA221CC00001DCE /* JDFindLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887701EA221CC00001DCE /* JDFindLive.swift */; };
+		7458877F1EA221CC00001DCE /* JDFindSpecialColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887711EA221CC00001DCE /* JDFindSpecialColumn.swift */; };
+		745887801EA221CC00001DCE /* JDFindSpecialColumnDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887721EA221CC00001DCE /* JDFindSpecialColumnDetail.swift */; };
+		745887831EA2221C00001DCE /* JDFindRecViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887821EA2221C00001DCE /* JDFindRecViewModel.swift */; };
 		74A6CD291E9FABFE00DC808C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD281E9FABFE00DC808C /* AppDelegate.swift */; };
 		74A6CD301E9FABFE00DC808C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A6CD2F1E9FABFE00DC808C /* Assets.xcassets */; };
 		74A6CD331E9FABFE00DC808C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A6CD311E9FABFE00DC808C /* LaunchScreen.storyboard */; };
+		74A6CD491E9FBCD500DC808C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD481E9FBCD500DC808C /* Common.swift */; };
+		74A6CD4B1E9FBCE400DC808C /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD4A1E9FBCE400DC808C /* NetworkTools.swift */; };
+		74A6CD541E9FBCF900DC808C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD4D1E9FBCF900DC808C /* UIColor+Extension.swift */; };
+		74A6CD551E9FBCF900DC808C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD4E1E9FBCF900DC808C /* UIView+Extension.swift */; };
+		74A6CD561E9FBCF900DC808C /* JDBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD501E9FBCF900DC808C /* JDBaseController.swift */; };
+		74A6CD581E9FBCF900DC808C /* JDNavigationBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD521E9FBCF900DC808C /* JDNavigationBaseController.swift */; };
+		74A6CD591E9FBCF900DC808C /* JDTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD531E9FBCF900DC808C /* JDTabBarController.swift */; };
+		74A6CD5C1E9FBD3B00DC808C /* JDFindBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD5B1E9FBD3B00DC808C /* JDFindBaseController.swift */; };
+		74A6CD5E1E9FBD4F00DC808C /* JDFindAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD5D1E9FBD4F00DC808C /* JDFindAPI.swift */; };
+		74A6CD601E9FBD6300DC808C /* JDFindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD5F1E9FBD6300DC808C /* JDFindController.swift */; };
+		74A6CD631E9FBDAD00DC808C /* JDPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD611E9FBDAD00DC808C /* JDPageViewController.swift */; };
+		74A6CD641E9FBDAD00DC808C /* JDSubFindFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD621E9FBDAD00DC808C /* JDSubFindFactory.swift */; };
+		74A6CD6C1E9FBDFF00DC808C /* JDFindAnchorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD6B1E9FBDFF00DC808C /* JDFindAnchorController.swift */; };
+		74A6CD6E1E9FBE0C00DC808C /* JDFindCategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD6D1E9FBE0C00DC808C /* JDFindCategoryController.swift */; };
+		74A6CD701E9FBE1B00DC808C /* JDFindRadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD6F1E9FBE1B00DC808C /* JDFindRadioController.swift */; };
+		74A6CD721E9FBE2A00DC808C /* JDFindRandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD711E9FBE2A00DC808C /* JDFindRandController.swift */; };
+		74A6CD741E9FBE4600DC808C /* JDFindRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD731E9FBE4600DC808C /* JDFindRecommendController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4080B88BBAD717FB22CC5BF4 /* Pods-MyXMLY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyXMLY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyXMLY/Pods-MyXMLY.debug.xcconfig"; sourceTree = "<group>"; };
+		745887491EA2205000001DCE /* JDFindHeaderIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindHeaderIconView.swift; sourceTree = "<group>"; };
+		7458874A1EA2205000001DCE /* JDFindHeaderIconView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFindHeaderIconView.xib; sourceTree = "<group>"; };
+		7458874B1EA2205000001DCE /* JDFindRecHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindRecHeaderView.swift; sourceTree = "<group>"; };
+		7458874C1EA2205000001DCE /* JDFindRecHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFindRecHeaderView.xib; sourceTree = "<group>"; };
+		7458874D1EA2205000001DCE /* JDFindSubTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindSubTitleView.swift; sourceTree = "<group>"; };
+		745887541EA220DE00001DCE /* JDFindCellStyleFee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindCellStyleFee.swift; sourceTree = "<group>"; };
+		745887551EA220DE00001DCE /* JDFindCellStyleFee.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFindCellStyleFee.xib; sourceTree = "<group>"; };
+		745887561EA220DE00001DCE /* JDFindCellStyleLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindCellStyleLive.swift; sourceTree = "<group>"; };
+		745887571EA220DE00001DCE /* JDFindCellStyleLive.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFindCellStyleLive.xib; sourceTree = "<group>"; };
+		745887581EA220DE00001DCE /* JDFindCellStyleMore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindCellStyleMore.swift; sourceTree = "<group>"; };
+		745887591EA220DE00001DCE /* JDFindCellStyleMore.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFindCellStyleMore.xib; sourceTree = "<group>"; };
+		7458875A1EA220DE00001DCE /* JDFindCellStyleSpecial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindCellStyleSpecial.swift; sourceTree = "<group>"; };
+		7458875B1EA220DE00001DCE /* JDFindCellStyleSpecial.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDFindCellStyleSpecial.xib; sourceTree = "<group>"; };
+		745887651EA221CC00001DCE /* JDFindCityColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindCityColumn.swift; sourceTree = "<group>"; };
+		745887661EA221CC00001DCE /* JDFindDiscoveryColumns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindDiscoveryColumns.swift; sourceTree = "<group>"; };
+		745887671EA221CC00001DCE /* JDFindDiscoveryColumnsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindDiscoveryColumnsList.swift; sourceTree = "<group>"; };
+		745887681EA221CC00001DCE /* JDFindDiscoveryColumnsProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindDiscoveryColumnsProperties.swift; sourceTree = "<group>"; };
+		745887691EA221CC00001DCE /* JDFindEditorRecommendAlbum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindEditorRecommendAlbum.swift; sourceTree = "<group>"; };
+		7458876A1EA221CC00001DCE /* JDFindFeeDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindFeeDetailModel.swift; sourceTree = "<group>"; };
+		7458876B1EA221CC00001DCE /* JDFindFocusImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindFocusImages.swift; sourceTree = "<group>"; };
+		7458876C1EA221CC00001DCE /* JDFindFocusImagesDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindFocusImagesDetail.swift; sourceTree = "<group>"; };
+		7458876D1EA221CC00001DCE /* JDFindGuess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindGuess.swift; sourceTree = "<group>"; };
+		7458876E1EA221CC00001DCE /* JDFindHotRecommends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindHotRecommends.swift; sourceTree = "<group>"; };
+		7458876F1EA221CC00001DCE /* JDFindHotRecommendsList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindHotRecommendsList.swift; sourceTree = "<group>"; };
+		745887701EA221CC00001DCE /* JDFindLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindLive.swift; sourceTree = "<group>"; };
+		745887711EA221CC00001DCE /* JDFindSpecialColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindSpecialColumn.swift; sourceTree = "<group>"; };
+		745887721EA221CC00001DCE /* JDFindSpecialColumnDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindSpecialColumnDetail.swift; sourceTree = "<group>"; };
+		745887821EA2221C00001DCE /* JDFindRecViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindRecViewModel.swift; sourceTree = "<group>"; };
 		74A6CD251E9FABFE00DC808C /* MyXMLY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyXMLY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A6CD281E9FABFE00DC808C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74A6CD2F1E9FABFE00DC808C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74A6CD321E9FABFE00DC808C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74A6CD341E9FABFE00DC808C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A6CD481E9FBCD500DC808C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		74A6CD4A1E9FBCE400DC808C /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		74A6CD4D1E9FBCF900DC808C /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		74A6CD4E1E9FBCF900DC808C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		74A6CD501E9FBCF900DC808C /* JDBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDBaseController.swift; sourceTree = "<group>"; };
+		74A6CD521E9FBCF900DC808C /* JDNavigationBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDNavigationBaseController.swift; sourceTree = "<group>"; };
+		74A6CD531E9FBCF900DC808C /* JDTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDTabBarController.swift; sourceTree = "<group>"; };
+		74A6CD5B1E9FBD3B00DC808C /* JDFindBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindBaseController.swift; sourceTree = "<group>"; };
+		74A6CD5D1E9FBD4F00DC808C /* JDFindAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindAPI.swift; sourceTree = "<group>"; };
+		74A6CD5F1E9FBD6300DC808C /* JDFindController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindController.swift; sourceTree = "<group>"; };
+		74A6CD611E9FBDAD00DC808C /* JDPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDPageViewController.swift; sourceTree = "<group>"; };
+		74A6CD621E9FBDAD00DC808C /* JDSubFindFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDSubFindFactory.swift; sourceTree = "<group>"; };
+		74A6CD6B1E9FBDFF00DC808C /* JDFindAnchorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindAnchorController.swift; sourceTree = "<group>"; };
+		74A6CD6D1E9FBE0C00DC808C /* JDFindCategoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindCategoryController.swift; sourceTree = "<group>"; };
+		74A6CD6F1E9FBE1B00DC808C /* JDFindRadioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindRadioController.swift; sourceTree = "<group>"; };
+		74A6CD711E9FBE2A00DC808C /* JDFindRandController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindRandController.swift; sourceTree = "<group>"; };
+		74A6CD731E9FBE4600DC808C /* JDFindRecommendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindRecommendController.swift; sourceTree = "<group>"; };
 		8981B34B520F6F96FC2C4E26 /* Pods-MyXMLY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyXMLY.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyXMLY/Pods-MyXMLY.release.xcconfig"; sourceTree = "<group>"; };
 		C7FA1F060E1F5A78828803B0 /* Pods_MyXMLY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyXMLY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +126,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		745887481EA2200E00001DCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				745887491EA2205000001DCE /* JDFindHeaderIconView.swift */,
+				7458874A1EA2205000001DCE /* JDFindHeaderIconView.xib */,
+				7458874B1EA2205000001DCE /* JDFindRecHeaderView.swift */,
+				7458874C1EA2205000001DCE /* JDFindRecHeaderView.xib */,
+				7458874D1EA2205000001DCE /* JDFindSubTitleView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		745887531EA2208B00001DCE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				745887541EA220DE00001DCE /* JDFindCellStyleFee.swift */,
+				745887551EA220DE00001DCE /* JDFindCellStyleFee.xib */,
+				745887561EA220DE00001DCE /* JDFindCellStyleLive.swift */,
+				745887571EA220DE00001DCE /* JDFindCellStyleLive.xib */,
+				745887581EA220DE00001DCE /* JDFindCellStyleMore.swift */,
+				745887591EA220DE00001DCE /* JDFindCellStyleMore.xib */,
+				7458875A1EA220DE00001DCE /* JDFindCellStyleSpecial.swift */,
+				7458875B1EA220DE00001DCE /* JDFindCellStyleSpecial.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		745887641EA221AF00001DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				745887651EA221CC00001DCE /* JDFindCityColumn.swift */,
+				745887661EA221CC00001DCE /* JDFindDiscoveryColumns.swift */,
+				745887671EA221CC00001DCE /* JDFindDiscoveryColumnsList.swift */,
+				745887681EA221CC00001DCE /* JDFindDiscoveryColumnsProperties.swift */,
+				745887691EA221CC00001DCE /* JDFindEditorRecommendAlbum.swift */,
+				7458876A1EA221CC00001DCE /* JDFindFeeDetailModel.swift */,
+				7458876B1EA221CC00001DCE /* JDFindFocusImages.swift */,
+				7458876C1EA221CC00001DCE /* JDFindFocusImagesDetail.swift */,
+				7458876D1EA221CC00001DCE /* JDFindGuess.swift */,
+				7458876E1EA221CC00001DCE /* JDFindHotRecommends.swift */,
+				7458876F1EA221CC00001DCE /* JDFindHotRecommendsList.swift */,
+				745887701EA221CC00001DCE /* JDFindLive.swift */,
+				745887711EA221CC00001DCE /* JDFindSpecialColumn.swift */,
+				745887721EA221CC00001DCE /* JDFindSpecialColumnDetail.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		745887811EA2220900001DCE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				745887821EA2221C00001DCE /* JDFindRecViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		74A6CD1C1E9FABFE00DC808C = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +203,209 @@
 		74A6CD271E9FABFE00DC808C /* MyXMLY */ = {
 			isa = PBXGroup;
 			children = (
+				74A6CD3E1E9FAE6100DC808C /* Other */,
+				74A6CD3D1E9FAE4A00DC808C /* Main */,
+				74A6CD3C1E9FAE4100DC808C /* Discover */,
+				74A6CD3B1E9FAE3100DC808C /* HTTPRequest */,
+				74A6CD3A1E9FAE2700DC808C /* Tool */,
 				74A6CD281E9FABFE00DC808C /* AppDelegate.swift */,
 				74A6CD2F1E9FABFE00DC808C /* Assets.xcassets */,
 				74A6CD311E9FABFE00DC808C /* LaunchScreen.storyboard */,
 				74A6CD341E9FABFE00DC808C /* Info.plist */,
 			);
 			path = MyXMLY;
+			sourceTree = "<group>";
+		};
+		74A6CD3A1E9FAE2700DC808C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD4A1E9FBCE400DC808C /* NetworkTools.swift */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		74A6CD3B1E9FAE3100DC808C /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD471E9FBC9600DC808C /* FindAPI */,
+			);
+			name = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		74A6CD3C1E9FAE4100DC808C /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD461E9FBC6400DC808C /* FindBase */,
+				74A6CD451E9FBC5500DC808C /* EditRecommend */,
+				74A6CD441E9FBC4300DC808C /* Anchor */,
+				74A6CD431E9FBC3100DC808C /* Rand */,
+				74A6CD411E9FB05800DC808C /* Radio */,
+				74A6CD401E9FAF8700DC808C /* CategorySection */,
+				74A6CD3F1E9FAF3A00DC808C /* Recommend  */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		74A6CD3D1E9FAE4A00DC808C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD4C1E9FBCF900DC808C /* Category */,
+				74A6CD4F1E9FBCF900DC808C /* Controller */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		74A6CD3E1E9FAE6100DC808C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD481E9FBCD500DC808C /* Common.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		74A6CD3F1E9FAF3A00DC808C /* Recommend  */ = {
+			isa = PBXGroup;
+			children = (
+				745887811EA2220900001DCE /* ViewModel */,
+				745887641EA221AF00001DCE /* Model */,
+				74A6CD6A1E9FBDF100DC808C /* Controller */,
+			);
+			name = "Recommend ";
+			sourceTree = "<group>";
+		};
+		74A6CD401E9FAF8700DC808C /* CategorySection */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD691E9FBDEC00DC808C /* Controller */,
+			);
+			name = CategorySection;
+			sourceTree = "<group>";
+		};
+		74A6CD411E9FB05800DC808C /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD681E9FBDDC00DC808C /* Controller */,
+			);
+			name = Radio;
+			sourceTree = "<group>";
+		};
+		74A6CD431E9FBC3100DC808C /* Rand */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD671E9FBDD500DC808C /* Controller */,
+			);
+			name = Rand;
+			sourceTree = "<group>";
+		};
+		74A6CD441E9FBC4300DC808C /* Anchor */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD651E9FBDC300DC808C /* Controller */,
+			);
+			name = Anchor;
+			sourceTree = "<group>";
+		};
+		74A6CD451E9FBC5500DC808C /* EditRecommend */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD661E9FBDCC00DC808C /* Controller */,
+			);
+			name = EditRecommend;
+			sourceTree = "<group>";
+		};
+		74A6CD461E9FBC6400DC808C /* FindBase */ = {
+			isa = PBXGroup;
+			children = (
+				745887531EA2208B00001DCE /* Cell */,
+				745887481EA2200E00001DCE /* View */,
+				74A6CD5A1E9FBD2B00DC808C /* Controller */,
+			);
+			name = FindBase;
+			sourceTree = "<group>";
+		};
+		74A6CD471E9FBC9600DC808C /* FindAPI */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD5D1E9FBD4F00DC808C /* JDFindAPI.swift */,
+			);
+			name = FindAPI;
+			sourceTree = "<group>";
+		};
+		74A6CD4C1E9FBCF900DC808C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD4D1E9FBCF900DC808C /* UIColor+Extension.swift */,
+				74A6CD4E1E9FBCF900DC808C /* UIView+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		74A6CD4F1E9FBCF900DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD501E9FBCF900DC808C /* JDBaseController.swift */,
+				74A6CD521E9FBCF900DC808C /* JDNavigationBaseController.swift */,
+				74A6CD531E9FBCF900DC808C /* JDTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74A6CD5A1E9FBD2B00DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD611E9FBDAD00DC808C /* JDPageViewController.swift */,
+				74A6CD621E9FBDAD00DC808C /* JDSubFindFactory.swift */,
+				74A6CD5F1E9FBD6300DC808C /* JDFindController.swift */,
+				74A6CD5B1E9FBD3B00DC808C /* JDFindBaseController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		74A6CD651E9FBDC300DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD6B1E9FBDFF00DC808C /* JDFindAnchorController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		74A6CD661E9FBDCC00DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		74A6CD671E9FBDD500DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD711E9FBE2A00DC808C /* JDFindRandController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		74A6CD681E9FBDDC00DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD6F1E9FBE1B00DC808C /* JDFindRadioController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		74A6CD691E9FBDEC00DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD6D1E9FBE0C00DC808C /* JDFindCategoryController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		74A6CD6A1E9FBDF100DC808C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD731E9FBE4600DC808C /* JDFindRecommendController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		CE5ED1600D3091E94139B750 /* Frameworks */ = {
@@ -147,6 +490,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				74A6CD331E9FABFE00DC808C /* LaunchScreen.storyboard in Resources */,
+				745887511EA2205000001DCE /* JDFindRecHeaderView.xib in Resources */,
+				745887611EA220DE00001DCE /* JDFindCellStyleMore.xib in Resources */,
+				7458875F1EA220DE00001DCE /* JDFindCellStyleLive.xib in Resources */,
+				745887631EA220DE00001DCE /* JDFindCellStyleSpecial.xib in Resources */,
+				7458874F1EA2205000001DCE /* JDFindHeaderIconView.xib in Resources */,
+				7458875D1EA220DE00001DCE /* JDFindCellStyleFee.xib in Resources */,
 				74A6CD301E9FABFE00DC808C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +555,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A6CD581E9FBCF900DC808C /* JDNavigationBaseController.swift in Sources */,
+				745887781EA221CC00001DCE /* JDFindFeeDetailModel.swift in Sources */,
+				7458877A1EA221CC00001DCE /* JDFindFocusImagesDetail.swift in Sources */,
+				7458875E1EA220DE00001DCE /* JDFindCellStyleLive.swift in Sources */,
+				745887751EA221CC00001DCE /* JDFindDiscoveryColumnsList.swift in Sources */,
+				74A6CD741E9FBE4600DC808C /* JDFindRecommendController.swift in Sources */,
+				74A6CD491E9FBCD500DC808C /* Common.swift in Sources */,
 				74A6CD291E9FABFE00DC808C /* AppDelegate.swift in Sources */,
+				7458877B1EA221CC00001DCE /* JDFindGuess.swift in Sources */,
+				74A6CD631E9FBDAD00DC808C /* JDPageViewController.swift in Sources */,
+				74A6CD591E9FBCF900DC808C /* JDTabBarController.swift in Sources */,
+				74A6CD641E9FBDAD00DC808C /* JDSubFindFactory.swift in Sources */,
+				74A6CD5C1E9FBD3B00DC808C /* JDFindBaseController.swift in Sources */,
+				745887521EA2205000001DCE /* JDFindSubTitleView.swift in Sources */,
+				74A6CD561E9FBCF900DC808C /* JDBaseController.swift in Sources */,
+				7458877C1EA221CC00001DCE /* JDFindHotRecommends.swift in Sources */,
+				745887731EA221CC00001DCE /* JDFindCityColumn.swift in Sources */,
+				745887761EA221CC00001DCE /* JDFindDiscoveryColumnsProperties.swift in Sources */,
+				74A6CD701E9FBE1B00DC808C /* JDFindRadioController.swift in Sources */,
+				74A6CD4B1E9FBCE400DC808C /* NetworkTools.swift in Sources */,
+				74A6CD551E9FBCF900DC808C /* UIView+Extension.swift in Sources */,
+				74A6CD721E9FBE2A00DC808C /* JDFindRandController.swift in Sources */,
+				74A6CD6E1E9FBE0C00DC808C /* JDFindCategoryController.swift in Sources */,
+				74A6CD541E9FBCF900DC808C /* UIColor+Extension.swift in Sources */,
+				745887831EA2221C00001DCE /* JDFindRecViewModel.swift in Sources */,
+				745887771EA221CC00001DCE /* JDFindEditorRecommendAlbum.swift in Sources */,
+				74A6CD5E1E9FBD4F00DC808C /* JDFindAPI.swift in Sources */,
+				745887791EA221CC00001DCE /* JDFindFocusImages.swift in Sources */,
+				7458877D1EA221CC00001DCE /* JDFindHotRecommendsList.swift in Sources */,
+				7458875C1EA220DE00001DCE /* JDFindCellStyleFee.swift in Sources */,
+				745887801EA221CC00001DCE /* JDFindSpecialColumnDetail.swift in Sources */,
+				74A6CD601E9FBD6300DC808C /* JDFindController.swift in Sources */,
+				7458877F1EA221CC00001DCE /* JDFindSpecialColumn.swift in Sources */,
+				745887501EA2205000001DCE /* JDFindRecHeaderView.swift in Sources */,
+				745887741EA221CC00001DCE /* JDFindDiscoveryColumns.swift in Sources */,
+				7458877E1EA221CC00001DCE /* JDFindLive.swift in Sources */,
+				74A6CD6C1E9FBDFF00DC808C /* JDFindAnchorController.swift in Sources */,
+				7458874E1EA2205000001DCE /* JDFindHeaderIconView.swift in Sources */,
+				745887601EA220DE00001DCE /* JDFindCellStyleMore.swift in Sources */,
+				745887621EA220DE00001DCE /* JDFindCellStyleSpecial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +754,7 @@
 				74A6CD391E9FABFE00DC808C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

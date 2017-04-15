@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JDFindRecHeaderView" customModule="MyFFM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdN-2s-znS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="rRQ-6d-lmv"/>
+                    </constraints>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ann-C1-u4n">
+                    <rect key="frame" x="0.0" y="150" width="375" height="100"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ann-C1-u4n" secondAttribute="bottom" id="7kV-Zk-Jwj"/>
+                <constraint firstItem="ann-C1-u4n" firstAttribute="top" secondItem="jdN-2s-znS" secondAttribute="bottom" id="9nh-vG-MHf"/>
+                <constraint firstAttribute="trailing" secondItem="ann-C1-u4n" secondAttribute="trailing" id="AAB-GS-vMs"/>
+                <constraint firstAttribute="trailing" secondItem="jdN-2s-znS" secondAttribute="trailing" id="BVk-0I-cWn"/>
+                <constraint firstItem="jdN-2s-znS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TE1-zM-oe2"/>
+                <constraint firstItem="jdN-2s-znS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dNo-lq-x7P"/>
+                <constraint firstItem="ann-C1-u4n" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hRn-ib-4VG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="adverView" destination="jdN-2s-znS" id="6dC-k4-uWZ"/>
+                <outlet property="cateScrollView" destination="ann-C1-u4n" id="XWQ-36-bsT"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="52"/>
+        </view>
+    </objects>
+</document>
