@@ -36,6 +36,8 @@
 		7458877F1EA221CC00001DCE /* JDFindSpecialColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887711EA221CC00001DCE /* JDFindSpecialColumn.swift */; };
 		745887801EA221CC00001DCE /* JDFindSpecialColumnDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887721EA221CC00001DCE /* JDFindSpecialColumnDetail.swift */; };
 		745887831EA2221C00001DCE /* JDFindRecViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745887821EA2221C00001DCE /* JDFindRecViewModel.swift */; };
+		74893BA61EA4F33100DB0A2A /* JDMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74893BA51EA4F33100DB0A2A /* JDMineController.swift */; };
+		74893BA91EA4F3A200DB0A2A /* JDMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74893BA81EA4F3A200DB0A2A /* JDMineHeaderView.swift */; };
 		74A6CD291E9FABFE00DC808C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A6CD281E9FABFE00DC808C /* AppDelegate.swift */; };
 		74A6CD301E9FABFE00DC808C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A6CD2F1E9FABFE00DC808C /* Assets.xcassets */; };
 		74A6CD331E9FABFE00DC808C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A6CD311E9FABFE00DC808C /* LaunchScreen.storyboard */; };
@@ -88,6 +90,8 @@
 		745887711EA221CC00001DCE /* JDFindSpecialColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindSpecialColumn.swift; sourceTree = "<group>"; };
 		745887721EA221CC00001DCE /* JDFindSpecialColumnDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindSpecialColumnDetail.swift; sourceTree = "<group>"; };
 		745887821EA2221C00001DCE /* JDFindRecViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFindRecViewModel.swift; sourceTree = "<group>"; };
+		74893BA51EA4F33100DB0A2A /* JDMineController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDMineController.swift; sourceTree = "<group>"; };
+		74893BA81EA4F3A200DB0A2A /* JDMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDMineHeaderView.swift; sourceTree = "<group>"; };
 		74A6CD251E9FABFE00DC808C /* MyXMLY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyXMLY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A6CD281E9FABFE00DC808C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74A6CD2F1E9FABFE00DC808C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,7 +139,7 @@
 				7458874C1EA2205000001DCE /* JDFindRecHeaderView.xib */,
 				7458874D1EA2205000001DCE /* JDFindSubTitleView.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		745887531EA2208B00001DCE /* Cell */ = {
@@ -150,7 +154,7 @@
 				7458875A1EA220DE00001DCE /* JDFindCellStyleSpecial.swift */,
 				7458875B1EA220DE00001DCE /* JDFindCellStyleSpecial.xib */,
 			);
-			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		745887641EA221AF00001DCE /* Model */ = {
@@ -171,7 +175,7 @@
 				745887711EA221CC00001DCE /* JDFindSpecialColumn.swift */,
 				745887721EA221CC00001DCE /* JDFindSpecialColumnDetail.swift */,
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		745887811EA2220900001DCE /* ViewModel */ = {
@@ -179,16 +183,58 @@
 			children = (
 				745887821EA2221C00001DCE /* JDFindRecViewModel.swift */,
 			);
-			name = ViewModel;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		745887841EA2240800001DCE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74A6CD3C1E9FAE4100DC808C /* Discover */,
+				74A6CD3B1E9FAE3100DC808C /* HTTPRequest */,
+				74A6CD3D1E9FAE4A00DC808C /* Main */,
+				74893BA31EA4F29100DB0A2A /* Mine */,
+				74A6CD3E1E9FAE6100DC808C /* Other */,
+				74A6CD3A1E9FAE2700DC808C /* Tool */,
+				74A6CD281E9FABFE00DC808C /* AppDelegate.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		74893BA31EA4F29100DB0A2A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				74893BA41EA4F2BF00DB0A2A /* Controller */,
+				74893BA71EA4F39100DB0A2A /* View */,
+			);
+			name = Mine;
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		74893BA41EA4F2BF00DB0A2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74893BA51EA4F33100DB0A2A /* JDMineController.swift */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74893BA71EA4F39100DB0A2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74893BA81EA4F3A200DB0A2A /* JDMineHeaderView.swift */,
+			);
+			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		74A6CD1C1E9FABFE00DC808C = {
 			isa = PBXGroup;
 			children = (
-				74A6CD271E9FABFE00DC808C /* MyXMLY */,
-				74A6CD261E9FABFE00DC808C /* Products */,
-				DCC036FC33B363291D57A208 /* Pods */,
 				CE5ED1600D3091E94139B750 /* Frameworks */,
+				74A6CD271E9FABFE00DC808C /* MyXMLY */,
+				DCC036FC33B363291D57A208 /* Pods */,
+				74A6CD261E9FABFE00DC808C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,15 +249,10 @@
 		74A6CD271E9FABFE00DC808C /* MyXMLY */ = {
 			isa = PBXGroup;
 			children = (
-				74A6CD3E1E9FAE6100DC808C /* Other */,
-				74A6CD3D1E9FAE4A00DC808C /* Main */,
-				74A6CD3C1E9FAE4100DC808C /* Discover */,
-				74A6CD3B1E9FAE3100DC808C /* HTTPRequest */,
-				74A6CD3A1E9FAE2700DC808C /* Tool */,
-				74A6CD281E9FABFE00DC808C /* AppDelegate.swift */,
+				745887841EA2240800001DCE /* Classes */,
 				74A6CD2F1E9FABFE00DC808C /* Assets.xcassets */,
-				74A6CD311E9FABFE00DC808C /* LaunchScreen.storyboard */,
 				74A6CD341E9FABFE00DC808C /* Info.plist */,
+				74A6CD311E9FABFE00DC808C /* LaunchScreen.storyboard */,
 			);
 			path = MyXMLY;
 			sourceTree = "<group>";
@@ -221,7 +262,7 @@
 			children = (
 				74A6CD4A1E9FBCE400DC808C /* NetworkTools.swift */,
 			);
-			name = Tool;
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		74A6CD3B1E9FAE3100DC808C /* HTTPRequest */ = {
@@ -229,21 +270,21 @@
 			children = (
 				74A6CD471E9FBC9600DC808C /* FindAPI */,
 			);
-			name = HTTPRequest;
+			path = HTTPRequest;
 			sourceTree = "<group>";
 		};
 		74A6CD3C1E9FAE4100DC808C /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				74A6CD461E9FBC6400DC808C /* FindBase */,
-				74A6CD451E9FBC5500DC808C /* EditRecommend */,
 				74A6CD441E9FBC4300DC808C /* Anchor */,
-				74A6CD431E9FBC3100DC808C /* Rand */,
-				74A6CD411E9FB05800DC808C /* Radio */,
 				74A6CD401E9FAF8700DC808C /* CategorySection */,
+				74A6CD451E9FBC5500DC808C /* EditRecommend */,
+				74A6CD461E9FBC6400DC808C /* FindBase */,
+				74A6CD411E9FB05800DC808C /* Radio */,
+				74A6CD431E9FBC3100DC808C /* Rand */,
 				74A6CD3F1E9FAF3A00DC808C /* Recommend  */,
 			);
-			name = Discover;
+			path = Discover;
 			sourceTree = "<group>";
 		};
 		74A6CD3D1E9FAE4A00DC808C /* Main */ = {
@@ -252,7 +293,7 @@
 				74A6CD4C1E9FBCF900DC808C /* Category */,
 				74A6CD4F1E9FBCF900DC808C /* Controller */,
 			);
-			name = Main;
+			path = Main;
 			sourceTree = "<group>";
 		};
 		74A6CD3E1E9FAE6100DC808C /* Other */ = {
@@ -260,17 +301,17 @@
 			children = (
 				74A6CD481E9FBCD500DC808C /* Common.swift */,
 			);
-			name = Other;
+			path = Other;
 			sourceTree = "<group>";
 		};
 		74A6CD3F1E9FAF3A00DC808C /* Recommend  */ = {
 			isa = PBXGroup;
 			children = (
-				745887811EA2220900001DCE /* ViewModel */,
-				745887641EA221AF00001DCE /* Model */,
 				74A6CD6A1E9FBDF100DC808C /* Controller */,
+				745887641EA221AF00001DCE /* Model */,
+				745887811EA2220900001DCE /* ViewModel */,
 			);
-			name = "Recommend ";
+			path = "Recommend ";
 			sourceTree = "<group>";
 		};
 		74A6CD401E9FAF8700DC808C /* CategorySection */ = {
@@ -278,7 +319,7 @@
 			children = (
 				74A6CD691E9FBDEC00DC808C /* Controller */,
 			);
-			name = CategorySection;
+			path = CategorySection;
 			sourceTree = "<group>";
 		};
 		74A6CD411E9FB05800DC808C /* Radio */ = {
@@ -286,7 +327,7 @@
 			children = (
 				74A6CD681E9FBDDC00DC808C /* Controller */,
 			);
-			name = Radio;
+			path = Radio;
 			sourceTree = "<group>";
 		};
 		74A6CD431E9FBC3100DC808C /* Rand */ = {
@@ -294,7 +335,7 @@
 			children = (
 				74A6CD671E9FBDD500DC808C /* Controller */,
 			);
-			name = Rand;
+			path = Rand;
 			sourceTree = "<group>";
 		};
 		74A6CD441E9FBC4300DC808C /* Anchor */ = {
@@ -302,7 +343,7 @@
 			children = (
 				74A6CD651E9FBDC300DC808C /* Controller */,
 			);
-			name = Anchor;
+			path = Anchor;
 			sourceTree = "<group>";
 		};
 		74A6CD451E9FBC5500DC808C /* EditRecommend */ = {
@@ -310,17 +351,17 @@
 			children = (
 				74A6CD661E9FBDCC00DC808C /* Controller */,
 			);
-			name = EditRecommend;
+			path = EditRecommend;
 			sourceTree = "<group>";
 		};
 		74A6CD461E9FBC6400DC808C /* FindBase */ = {
 			isa = PBXGroup;
 			children = (
 				745887531EA2208B00001DCE /* Cell */,
-				745887481EA2200E00001DCE /* View */,
 				74A6CD5A1E9FBD2B00DC808C /* Controller */,
+				745887481EA2200E00001DCE /* View */,
 			);
-			name = FindBase;
+			path = FindBase;
 			sourceTree = "<group>";
 		};
 		74A6CD471E9FBC9600DC808C /* FindAPI */ = {
@@ -328,7 +369,7 @@
 			children = (
 				74A6CD5D1E9FBD4F00DC808C /* JDFindAPI.swift */,
 			);
-			name = FindAPI;
+			path = FindAPI;
 			sourceTree = "<group>";
 		};
 		74A6CD4C1E9FBCF900DC808C /* Category */ = {
@@ -353,12 +394,12 @@
 		74A6CD5A1E9FBD2B00DC808C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				74A6CD5B1E9FBD3B00DC808C /* JDFindBaseController.swift */,
+				74A6CD5F1E9FBD6300DC808C /* JDFindController.swift */,
 				74A6CD611E9FBDAD00DC808C /* JDPageViewController.swift */,
 				74A6CD621E9FBDAD00DC808C /* JDSubFindFactory.swift */,
-				74A6CD5F1E9FBD6300DC808C /* JDFindController.swift */,
-				74A6CD5B1E9FBD3B00DC808C /* JDFindBaseController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		74A6CD651E9FBDC300DC808C /* Controller */ = {
@@ -366,14 +407,14 @@
 			children = (
 				74A6CD6B1E9FBDFF00DC808C /* JDFindAnchorController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		74A6CD661E9FBDCC00DC808C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		74A6CD671E9FBDD500DC808C /* Controller */ = {
@@ -381,7 +422,7 @@
 			children = (
 				74A6CD711E9FBE2A00DC808C /* JDFindRandController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		74A6CD681E9FBDDC00DC808C /* Controller */ = {
@@ -389,7 +430,7 @@
 			children = (
 				74A6CD6F1E9FBE1B00DC808C /* JDFindRadioController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		74A6CD691E9FBDEC00DC808C /* Controller */ = {
@@ -397,7 +438,7 @@
 			children = (
 				74A6CD6D1E9FBE0C00DC808C /* JDFindCategoryController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		74A6CD6A1E9FBDF100DC808C /* Controller */ = {
@@ -405,7 +446,7 @@
 			children = (
 				74A6CD731E9FBE4600DC808C /* JDFindRecommendController.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		CE5ED1600D3091E94139B750 /* Frameworks */ = {
@@ -565,6 +606,7 @@
 				74A6CD291E9FABFE00DC808C /* AppDelegate.swift in Sources */,
 				7458877B1EA221CC00001DCE /* JDFindGuess.swift in Sources */,
 				74A6CD631E9FBDAD00DC808C /* JDPageViewController.swift in Sources */,
+				74893BA61EA4F33100DB0A2A /* JDMineController.swift in Sources */,
 				74A6CD591E9FBCF900DC808C /* JDTabBarController.swift in Sources */,
 				74A6CD641E9FBDAD00DC808C /* JDSubFindFactory.swift in Sources */,
 				74A6CD5C1E9FBD3B00DC808C /* JDFindBaseController.swift in Sources */,
@@ -586,6 +628,7 @@
 				7458877D1EA221CC00001DCE /* JDFindHotRecommendsList.swift in Sources */,
 				7458875C1EA220DE00001DCE /* JDFindCellStyleFee.swift in Sources */,
 				745887801EA221CC00001DCE /* JDFindSpecialColumnDetail.swift in Sources */,
+				74893BA91EA4F3A200DB0A2A /* JDMineHeaderView.swift in Sources */,
 				74A6CD601E9FBD6300DC808C /* JDFindController.swift in Sources */,
 				7458877F1EA221CC00001DCE /* JDFindSpecialColumn.swift in Sources */,
 				745887501EA2205000001DCE /* JDFindRecHeaderView.swift in Sources */,
@@ -607,6 +650,7 @@
 				74A6CD321E9FABFE00DC808C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
